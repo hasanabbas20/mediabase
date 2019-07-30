@@ -2,10 +2,12 @@ package com.example.mediabase;
 
 import com.example.mediabase.movies.Movie;
 import com.example.mediabase.movies.MoviesBean;
-import com.example.mediabase.podcasts.Podcast;
-import com.example.mediabase.podcasts.PodcastRepository;
+import com.example.mediabase.movies.MoviesBean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import com.example.mediabase.podcasts.Podcast;
+import com.example.mediabase.podcasts.PodcastRepository;
+
 
 import java.util.Map;
 
