@@ -16,11 +16,8 @@
  */
 package com.example.mediabase.movies;
 
-import com.example.mediabase.movies.Movie;
-import com.example.mediabase.movies.MoviesBean;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Component;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
