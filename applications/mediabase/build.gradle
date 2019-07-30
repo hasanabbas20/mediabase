@@ -21,7 +21,6 @@ dependencies {
     compile('commons-lang:commons-lang:2.4')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
-    compile project(":components:movies")
     compile project(":components:podcasts")
 
     compile('taglibs:standard:1.1.2')
