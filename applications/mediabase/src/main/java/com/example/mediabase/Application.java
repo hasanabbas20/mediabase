@@ -28,11 +28,6 @@ public class Application {
     public ServletRegistrationBean registerActionServlet(ActionServlet actionServlet) {
         return new ServletRegistrationBean(actionServlet, "/moviefun/*");
     }
-    @LoadBalanced
-    @Bean
-    public RestOperations restOperations() {
-        return new RestTemplate();
-    }
 
     @Bean
     public MovieClient movieClient(RestOperations restOperations) {
